@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+a{
+    text-decoration:none ;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+}
+:root{
+    --main-color: #eebf00;
+    --danger-color: #fe4545;
+    --white-color: #fff;
+    --black-color:#000;
+    --second-color: #232b38;
+    --light-color: #f0f0f0;
+
+    --primary-font: "Montserrat", sans-serif;
+}
+
+/*----------------Nav Bar-----------------*/
+.navigation-bar nav {
+    background: linear-gradient(92.41deg, #003d32, #04734b);
+    height: 60px;
+    padding: 4px ;
+}
+.navigation-bar nav .logo {
+    border: 1.5px solid transparent;
+    height: 3.125rem;
+    width: 7.063rem;
+    margin: 1px;
+    padding: 0rem 0.438rem 0rem 0.313;
+}
+.navigation-bar nav .logo img{
+    height: 100%;
+    width: 100%;
+}
+.navigation-bar nav .adress{
+    padding: 0 9px 0 9px;
+    margin: 5px 2px 5px 0;
+}
+.navigation-bar nav .adress i{
+    width: 0.938rem;
+    height: 1.125rem;
+    margin-top: 0.5rem;
+}
+.navigation-bar nav .adress .adress-location {
+    margin-left: 0.188rem;
+}
+.navigation-bar nav .adress .adress-location h3{
+    color: #ccc;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.navigation-bar nav .adress .adress-location h4{
+    color:var(--white-color);
+    padding-top: 1px;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+.navigation-bar nav .search-bar{
+    margin: 0px 10px;
+}
+.navigation-bar nav .search-bar input{
+    width: 660.5px;
+    border-radius: 0;
+}
+.navigation-bar nav .search-bar select{
+    background-color: #e6e6e6;
+    padding-left: 5px;
+    width: 60px;
+} 
+.navigation-bar nav .search-bar button{
+    background-color:#a9176f;
+}
+.navigation-bar nav .search-bar i{
+    width: 50px;
+} 
+.navigation-bar nav .language{
+    margin-left: 0.063rem;
+    padding: 0px 9px 5px 9px;
+}
+.navigation-bar nav .language  img{
+    width:21.6px;
+    height: 16.5px;
+    margin: 0 0.125rem 0.063rem 0;
+}
+.navigation-bar nav .language  h6{
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+.navigation-bar nav .language select,
+.login h3 span select
+{
+    background-color: transparent;
+}
+.navigation-bar nav .login,
+.navigation-bar nav .retuns-order{
+    margin-left: 2px;
+    padding: 0px 9px 10px 9px;
+}
+.navigation-bar nav .login h4,
+.navigation-bar nav .retuns-order h4
+{
+    margin-top: 9px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.navigation-bar nav .login h3,
+.navigation-bar nav .retuns-order h3
+{
+    font-size: 14px;
+    font-weight: 700;
+}
+.navigation-bar nav .cart {
+    margin: 0px 11px 0px 2px;
+    padding: 0px 9px 11px 9px;
+    color: var(--white-color);
+
+}
+.navigation-bar .lower-nav{
+    height: 39px;
+    background-color: #085749;
+    padding-left: 11px;
+}
+.navigation-bar .lower-nav .bar{
+    padding: 8px 9px;
+}
+.navigation-bar .lower-nav .bar h3{
+    padding-left: 5px;
+    font-size: 14px;
+}
+.navigation-bar .lower-nav  h4{
+    margin: 5px 0px 6px 0px;
+    padding: 8px 9px;
+    font-size: 14px;
+    color: var(--white-color);
+}
+/*----------------Banner-----------------*/
+.banner .slider{
+    height: 230px;
+}
+.banner .slider .owl-nav .owl-next ,
+.banner .slider .owl-nav .owl-prev {
+    position: absolute;
+    top: 0;
+    height: 230px;
+    width: 84px;
+    font-size: 70px;
+}
+.banner .slider .owl-nav .owl-next {
+    right: 0;
+}
+.banner .slider .owl-nav .owl-next:hover {
+    background-color: transparent;
+    color: var(--black-color);
+}
+.banner .slider .owl-nav .owl-prev {
+    left: 0;
+}
+.banner .slider .owl-nav .owl-prev:hover {
+    background-color: transparent;
+    color: var(--black-color);
+
+}
+.banner .slider .owl-carousel .owl-dots {
+    display: none;
+}
+.banner .shoping-item {
+    padding: 0px 10px 0px;
+    background: linear-gradient(transparent , #e3e6e6);
+}
+.banner .shoping-item .indian-side {
+    padding: 10px 14px;
+}
+.banner .shoping-item .gift {
+    height: 420px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
